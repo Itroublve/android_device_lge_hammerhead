@@ -28,14 +28,14 @@ LOCAL_C_INCLUDES := \
         frameworks/native/include/media/openmax \
         frameworks/native/include \
         frameworks/av/include \
-        $(call project-path-for,qcom-media)/libstagefrighthw \
+        hardware/qcom/media/msm8974/libstagefrighthw \
         system/media/camera/include \
         $(LOCAL_PATH)/../../mm-image-codec/qexif \
         $(LOCAL_PATH)/../../mm-image-codec/qomx_core \
         $(LOCAL_PATH)/../util
 
 LOCAL_C_INCLUDES += \
-        $(call project-path-for,qcom-display)/libgralloc
+        hardware/qcom/display/msm8974/libgralloc
 
 LOCAL_HEADER_LIBRARIES := generated_kernel_headers
 LOCAL_HEADER_LIBRARIES += media_plugin_headers

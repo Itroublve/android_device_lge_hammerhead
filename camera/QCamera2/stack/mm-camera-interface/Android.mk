@@ -28,7 +28,7 @@ LOCAL_C_INCLUDES := \
     $(LOCAL_PATH)/inc \
     $(LOCAL_PATH)/../common
 
-LOCAL_C_INCLUDES += $(call project-path-for,qcom-media)/mm-core/inc
+LOCAL_C_INCLUDES += hardware/qcom/media/msm8974/mm-core/inc
 
 LOCAL_HEADER_LIBRARIES := generated_kernel_headers
 LOCAL_HEADER_LIBRARIES += media_plugin_headers
