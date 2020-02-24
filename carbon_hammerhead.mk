@@ -4,14 +4,14 @@ TARGET_SCREEN_WIDTH := 1080
 TARGET_BOOTANIMATION_HALF_RES := true
 
 # Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/carbon/config/gsm.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/lge/hammerhead/full_hammerhead.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := hammerhead
-PRODUCT_NAME := lineage_hammerhead
+PRODUCT_NAME := carbon_hammerhead
 PRODUCT_BRAND := google
 PRODUCT_MODEL := Nexus 5
 PRODUCT_MANUFACTURER := LGE
